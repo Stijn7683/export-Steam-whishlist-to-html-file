@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Steam Wishlist Exporter",
+  "version": "1.0",
+  "description": "Export the Steam wishlist HTML as a standalone file.",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "action": {
+    "default_title": "Export Wishlist",
+    "default_popup": "popup.html"
+  }
+}
